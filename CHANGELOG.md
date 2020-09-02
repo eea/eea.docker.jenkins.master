@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.235.5-1 (2020-09-02)
+
+- Fix plugins issue introduced in 2.235.5
+
 ## 2.235.5 (2020-09-02)
 
 - Upgrade to Jenkins 2.235.5
