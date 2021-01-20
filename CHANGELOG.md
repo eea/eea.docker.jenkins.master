@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.263.2 (2021-01-20)
+
+- Upgrade to Jenkins 2.263.2
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/63f8a9a558eff965daafe5af2983447f1d872f94
+
+## 2.263.1 (2020-12-09)
+
+- Upgrade to Jenkins 2.263.1
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/5a296d2bf7c43ff593316c02e3f6e6a263562051
+
+
 ## 2.249.3 (2020-11-09)
 
 - Upgrade to Jenkins 2.249.3
