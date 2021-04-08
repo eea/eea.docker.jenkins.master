@@ -5,8 +5,8 @@ def main():
     root = tree.getroot()
 
     plugins = []
-    for entry in root.getchildren()[0]:
-        plugin, version = entry.getchildren()
+    for entry in root.iter('entry'):
+        plugin, version = entry
         if "Hudson core" in plugin.text:
             continue
         plugins.append('%s:%s\n' % (plugin.text, version.text))
