@@ -2,6 +2,7 @@ pipeline {
   environment {
     registry = "eeacms/jenkins-master"
     template = "templates/jenkins-master"
+    GIT_NAME = "eea.docker.jenkins.master"
     dockerImage = ''
     tagName = ''
   }
