@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.303.1 (2021-09-20)
+
+- Upgrade to Jenkins 2.303.1
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/a65b2ae1200c11cc9c046f8f11f06f67a3f260e7
+- Upgrade Nodejs to 14
+- Upgrade OS to Debian 11 Bullseye
+
+
 ## 2.289.3 (2021-07-30)
 
 - Upgrade to Jenkins 2.289.3
