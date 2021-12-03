@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.319.1 (2021-12-03)
+
+- Upgrade to Jenkins 2.319.1
+- Plugins upgrade
+
 ## 2.303.1 (2021-09-20)
 
 - Upgrade to Jenkins 2.303.1

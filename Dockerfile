@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.303.1-jdk8
+FROM jenkins/jenkins:2.319.1-jdk8
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh  < /usr/share/jenkins/ref/plugins.txt
