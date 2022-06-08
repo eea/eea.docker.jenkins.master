@@ -1,5 +1,5 @@
 Matrix-sorter-plugin:1.3
-PrioritySorter:4.1.058/
+PrioritySorter:4.1.058
 ace-editor:1.1
 active-directory:2.25.1
 all-changes:1.5
