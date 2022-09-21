@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.361.1  (2022-09-21)
+
+- Upgrade to jenkins 2.361.1
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/44742debd8195933198fcaa06d37dce889c55259
+
 ## 2.346.3  (2022-07-30)
 
 - Upgrade to jenkins 2.346.3
