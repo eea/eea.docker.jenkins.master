@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.361.1
+FROM jenkins/jenkins:2.361.4
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN jenkins-plugin-cli --plugin-file=/usr/share/jenkins/ref/plugins.txt
