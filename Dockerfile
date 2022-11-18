@@ -8,5 +8,11 @@ USER root
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
  && apt-get update \
  && apt-get install -y --no-install-recommends graphviz nodejs \
- && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/* \
+ && mkdir -p ~/.ssh \
+ && ssh-keyscan github.com >> ~/.ssh/known_hosts
+ 
 USER ${user}
+
+RUN mkdir -p ~/.ssh \
+ && ssh-keyscan github.com >> ~/.ssh/known_hosts
