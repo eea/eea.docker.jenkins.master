@@ -213,7 +213,6 @@ trilead-api:2.72.v2a_3236754f73
 variant:59.vf075fe829ccb
 warnings-ng:9.20.1
 windmill:1.5
-windows-slaves:1.8.1
 workflow-aggregator:590.v6a_d052e5a_a_b_5
 workflow-api:1200.v8005c684b_a_c6
 workflow-basic-steps:994.vd57e3ca_46d24
