@@ -1,6 +1,12 @@
 # Changelog
 
 
+## 2.375.1  (2022-11-14)
+
+- Upgrade to jenkins 2.375.1
+- Add ssh-keyscan github.com
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/caf4caca13436d67bb09246ce9c675e7167df18a
+
 ## 2.361.4  (2022-11-14)
 
 - Upgrade to jenkins 2.361.4
