@@ -6,7 +6,6 @@ analysis-model-api:10.23.1
 ant:481.v7b_09e538fcca
 antisamy-markup-formatter:155.v795fb_8702324
 apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61
-async-http-client:1.9.40.0
 audit-trail:333.vb_e1b_b_0f1238c
 authentication-tokens:1.4
 authorize-project:1.4.0
