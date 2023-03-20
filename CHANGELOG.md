@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.387.1 (2023-03-20)
+
+- Upgrade to jenkins 2.387.1
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/1d393a5904161893a45090957655e46322abdc4b
 
 ## 2.375.3 (2023-02-13)
 
