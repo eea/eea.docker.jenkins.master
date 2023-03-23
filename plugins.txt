@@ -53,7 +53,6 @@ conditional-buildstep:1.4.2
 config-file-provider:3.11.1
 configurationslicing:430.v966357576543
 console-column-plugin:197.vcf5a_ec1d7b_47
-convert-to-pipeline:1.0
 credentials-binding:523.vd859a_4b_122e6
 credentials:1224.vc23ca_a_9a_2cb_0
 cron_column:1.6
