@@ -31,7 +31,6 @@ blueocean-rest-impl:1.27.4
 blueocean-rest:1.27.4
 blueocean-web:1.27.4
 blueocean:1.27.4
-bootstrap4-api:4.6.0-5
 bootstrap5-api:5.2.2-3
 bouncycastle-api:2.27
 branch-api:2.1092.vda_3c2a_a_f0c11
@@ -167,8 +166,6 @@ pipeline-stage-view:2.32
 plain-credentials:143.v1b_df8b_d3b_e48
 plugin-usage-plugin:4.0
 plugin-util-api:3.2.1
-popper-api:1.16.1-3
-popper2-api:2.11.6-2
 prism-api:1.29.0-5
 progress-bar-column-plugin:11.vdef198c2d6c1
 project-stats-plugin:23.v47fee1f77b_84
