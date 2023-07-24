@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.401.2 (2023-07-24)
+
+- Upgrade to jenkins 2.401.2
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/7fc4de5a4af2909e08f23e8b6b9b379fcfdfb31e
+
 ## 2.401.1 (2023-06-09)
 
 - Upgrade to jenkins 2.401.1
