@@ -96,7 +96,6 @@ github-issues:1.2.4
 github-oauth:588.vf696a_350572a_
 github-pr-comment-build:96.v9ff13b69dd66
 github:1.37.1
-greenballs:1.15.1
 groovy-label-assignment:1.2.0
 handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953
 html-audio-notifier:0.4
