@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.423 (2023-09-12)
+
+- Upgrade to jenkins 2.423
+
 ## 2.414.1 (2023-09-12)
 
 - Upgrade to jenkins 2.414.1
