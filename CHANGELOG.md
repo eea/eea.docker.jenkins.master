@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.429 (2023-10-25)
+
+- Upgrade to jenkins 2.429
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/91392c24e931df36ec1aa1220eb68f4711007762
+
 ## 2.427 (2023-10-17)
 
 - Upgrade to jenkins 2.427 
