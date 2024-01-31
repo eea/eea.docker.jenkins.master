@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.443 (2024-01-31)
+
+- Upgrade to jenkins 2.443
+- Upgrade java to 11.0.22_7
+- Plugins upgrade  https://github.com/eea/eea.docker.jenkins.master/commit/66015b2f1acb52cafb4d93b05d70ca1e9e819be4
+
 ## 2.436 (2023-12-14)
 
 - Upgrade to jenkins 2.436
