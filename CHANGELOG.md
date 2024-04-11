@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.453 (2024-04-11)
+
+- Upgrade to jenkins 2.453
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/bef70e5b88b58162741cc5f877bc76c3e1419042
+- Plugins upgrade https://github.com/eea/eea.docker.jenkins.master/commit/3a0ba9913703e391c3f655d414271b5fcf857b32
+
 ## 2.443 (2024-01-31)
 
 - Upgrade to jenkins 2.443
