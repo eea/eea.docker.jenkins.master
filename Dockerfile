@@ -1,16 +1,33 @@
-ARG JAVA_VERSION="11.0.22_7"
+ARG JAVA_VERSION=17.0.11_9
 ARG BULLSEYE_TAG=20230703
+
 FROM eclipse-temurin:"${JAVA_VERSION}"-jdk-focal as jre-build
+ 
+ 
 
-RUN jlink \
-         --add-modules ALL-MODULE-PATH \
-         --strip-debug \
-         --no-man-pages \
-         --no-header-files \
-         --compress=2 \
-         --output /javaruntime
+# Generate smaller java runtime without unneeded files
+# for now we include the full module path to maintain compatibility
+# while still saving space (approx 200mb from the full distribution)
+RUN case "$(jlink --version 2>&1)" in \
+      # jlink version 11 has less features than JDK17+
+      "11."*) set -- "--strip-debug" "--compress=2" ;; \
+      "17."*) set -- "--strip-java-debug-attributes" "--compress=2" ;; \
+      # the compression argument is different for JDK21
+      "21."*) set -- "--strip-java-debug-attributes" "--compress=zip-6" ;; \
+      *) echo "ERROR: unmanaged jlink version pattern" && exit 1 ;; \
+    esac; \
+    jlink \
+      "$1" \
+      "$2" \
+      --add-modules ALL-MODULE-PATH \
+      --no-man-pages \
+      --no-header-files \
+      --output /javaruntime
 
-FROM debian:bullseye-"${BULLSEYE_TAG}"
+
+
+
+FROM debian:bullseye-"${BULLSEYE_TAG}" as controller
 
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
@@ -73,10 +90,10 @@ RUN mkdir -p ${REF}/init.groovy.d
 
 # jenkins version being bundled in this docker image
 ARG JENKINS_VERSION
-ENV JENKINS_VERSION ${JENKINS_VERSION:-2.453}
+ENV JENKINS_VERSION ${JENKINS_VERSION:-2.462}
 
 # jenkins.war checksum, download will be validated using it
-ARG JENKINS_SHA=a782f364fd2817427bc97911e8648a62cba9d9e267893c2c5e5136b43605d3ca
+ARG JENKINS_SHA=f4172621f070cd0e19457b94a68f4eabeb995d12cd5fa57b92f2f3119015a744
 
 # Can be used to customize where jenkins.war get downloaded from
 ARG JENKINS_URL=https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/${JENKINS_VERSION}/jenkins-war-${JENKINS_VERSION}.war
@@ -93,9 +110,12 @@ ENV JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
 ENV JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals
 RUN chown -R ${user} "$JENKINS_HOME" "$REF"
 
-ARG PLUGIN_CLI_VERSION=2.12.14
+ARG PLUGIN_CLI_VERSION=2.13.0
 ARG PLUGIN_CLI_URL=https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/${PLUGIN_CLI_VERSION}/jenkins-plugin-manager-${PLUGIN_CLI_VERSION}.jar
-RUN curl -fsSL ${PLUGIN_CLI_URL} -o /opt/jenkins-plugin-manager.jar
+RUN curl -fsSL ${PLUGIN_CLI_URL} -o /opt/jenkins-plugin-manager.jar \
+  && echo "$(curl -fsSL "${PLUGIN_CLI_URL}.sha256")  /opt/jenkins-plugin-manager.jar" >/tmp/jenkins_sha \
+  && sha256sum -c --strict /tmp/jenkins_sha \
+  && rm -f /tmp/jenkins_sha
 
 # for main web interface:
 EXPOSE ${http_port}
