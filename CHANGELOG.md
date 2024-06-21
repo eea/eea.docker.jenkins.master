@@ -3,6 +3,7 @@
 ## 2.463 (2024-06-21)
 
 - Upgrade to jenkins 2.463
+- Upgrade to Java 17
 - Plugins upgrade
 
 ## 2.453 (2024-04-11)
