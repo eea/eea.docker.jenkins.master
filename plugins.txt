@@ -81,7 +81,7 @@ eddsa-api:0.3.0-4.v84c6f0f4969e
 email-ext:1814.v404722f34263
 embeddable-build-status:487.va_0ef04c898a_2
 external-monitor-job:215.v2e88e894db_f8
-favorite:2.208.v91d65b_7792a_c
+favorite:2.218.vd60382506538
 flashlog-plugin:1.0
 font-awesome-api:6.5.2-1
 forensics-api:2.4.0
@@ -170,7 +170,7 @@ pipeline-stage-step:312.v8cd10304c27a_
 pipeline-stage-tags-metadata:2.2198.v41dd8ef6dd56
 pipeline-stage-view:2.34
 plain-credentials:182.v468b_97b_9dcb_8
-plugin-usage-plugin:4.4
+plugin-usage-plugin:4.5
 plugin-util-api:4.1.0
 prism-api:1.29.0-15
 progress-bar-column-plugin:11.vdef198c2d6c1
@@ -194,7 +194,7 @@ sonar:2.17.2
 sse-gateway:1.27
 ssh-agent:367.vf9076cd4ee21
 ssh-credentials:337.v395d2403ccd4
-ssh-slaves:2.968.v6f8823c91de4
+ssh-slaves:2.973.v0fa_8c0dea_f9f
 sshd:3.330.vc866a_8389b_58
 structs:337.v1b_04ea_4df7c8
 subversion:1256.vee91953217b_6
