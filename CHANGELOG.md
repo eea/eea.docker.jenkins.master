@@ -3,7 +3,6 @@
 ## 2.468 (2024-07-19)
 
 - Upgrade to jenkins 2.468
-- Upgrade to OS bookworm
 - Plugins upgrade
 
 ## 2.463 (2024-06-21)
