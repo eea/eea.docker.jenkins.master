@@ -9,7 +9,7 @@ your non-related EEA projects.
 ## Supported tags and respective Dockerfile links
 
 - [`:latest` (*Dockerfile*)](https://github.com/eea/eea.docker.jenkins.master/blob/master/Dockerfile) (default)
-- [`:2.474` (*Dockerfile*)](https://github.com/eea/eea.docker.jenkins.master/blob/2.474/Dockerfile)
+- [`:2.475` (*Dockerfile*)](https://github.com/eea/eea.docker.jenkins.master/blob/2.475/Dockerfile)
 
 See [older versions](https://github.com/eea/eea.docker.jenkins.master/releases)
 
