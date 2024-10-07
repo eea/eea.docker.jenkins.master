@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.479 (2024-10-07)
+
+- Upgrade to jenkins 2.479
+- Upgrade plugins
+
 ## 2.475 (2024-09-05)
 
 - Upgrade to jenkins 2.475
