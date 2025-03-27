@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.503 (2025-03-27)
+
+- Upgrade to jenkins 2.503
+- Upgrade plugins
+
 ## 2.499 (2025-02-28)
 
 - Upgrade to jenkins 2.499
