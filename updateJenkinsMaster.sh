@@ -77,6 +77,9 @@ if [ -n "$check" ]; then
  read BACKUP_CREATED
 fi
 
+rancher exec jenkins-master-master-1 /bin/bash -c "ls -ltr /var/jenkins_home/backup/jenkins"
+
+rancher exec jenkins-master-master-1 /bin/bash -c "find /var/jenkins_home/backup/jenkins/ -maxdepth 2 -type f -name installedPlugins.xml | xargs ls -ltr"
 
 file_location=$(rancher exec jenkins-master-master-1 /bin/bash -c "find /var/jenkins_home/backup/jenkins/ -maxdepth 2 -mmin -$BACKUP_CREATED -type f -name installedPlugins.xml" | sed 's/installedPlugins.xml.*/installedPlugins.xml/' | head -n 1 )
 
