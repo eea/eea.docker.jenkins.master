@@ -36,7 +36,7 @@ blueocean:1.27.17
 bootstrap5-api:5.3.3-3
 bouncycastle-api:2.30.1.80-256.vf98926042a_9b_
 branch-api:2.1214.v3f652804588d
-build-history-manager:1.11.2
+build-history-manager:1.12.0
 build-timeout:1.37
 caffeine-api:3.2.0-166.v72a_6d74b_870f
 checks-api:367.v18b_7f530e54a_
@@ -54,7 +54,7 @@ conditional-buildstep:1.5.0
 config-file-provider:982.vb_a_e458a_37021
 configurationslicing:664.vdda_74145b_b_d0
 console-column-plugin:261.vd7e35335049b_
-coverage:2.2.0
+coverage:2.3.0
 credentials-binding:687.v619cb_15e923f
 credentials:1413.va_51c53703df1
 cron_column:83.vd52c9b_5c758c
@@ -128,7 +128,7 @@ jsch:0.2.16-95.v3eecb_55fa_b_78
 json-api:20250107-125.v28b_a_ffa_eb_f01
 json-path-api:2.9.0-148.v22a_7ffe323ce
 jsoup:1.19.1-38.v216a_f3721b_3c
-junit:1319.v000471ca_e5e2
+junit:1321.v399b_3e395b_5a_
 ldap:780.vcb_33c9a_e4332
 leastload:62.vfa_8830902733
 lockable-resources:1349.v8b_ccb_c5487f7
@@ -144,8 +144,8 @@ maven-info:0.3.2
 maven-plugin:3.25
 mercurial:1309.v6802b_f0efb_b_9
 metrics:4.2.21-464.vc9fa_a_0d6265d
-mina-sshd-api-common:2.14.0-143.v2b_362fc39576
-mina-sshd-api-core:2.14.0-143.v2b_362fc39576
+mina-sshd-api-common:2.15.0-161.vb_200831a_c15b_
+mina-sshd-api-core:2.15.0-161.vb_200831a_c15b_
 monitoring:2.5.0
 nested-view:1.36
 neuvector-vulnerability-scanner:2.5
@@ -154,7 +154,7 @@ nodejs:1.6.4
 nodelabelparameter:759.vb_b_e95db_f3251
 okhttp-api:4.11.0-189.v976fa_d3379d6
 openid4java:0.9.8.0
-oss-symbols-api:308.v0c48656b_15c1
+oss-symbols-api:313.vd9dc470e16a_0
 pam-auth:1.12
 parameterized-trigger:840.v3c7d4a_a_5e6c7
 pipeline-aggregator-view:119.v4b_ec11953552
@@ -165,12 +165,12 @@ pipeline-graph-view:423.v765c49ca_da_3f
 pipeline-groovy-lib:752.vdddedf804e72
 pipeline-input-step:517.vf8e782ee645c
 pipeline-milestone-step:127.vb_52887ca_3b_6d
-pipeline-model-api:2.2247.va_423189a_7dff
-pipeline-model-definition:2.2247.va_423189a_7dff
-pipeline-model-extensions:2.2247.va_423189a_7dff
+pipeline-model-api:2.2254.v2a_978de46f35
+pipeline-model-definition:2.2254.v2a_978de46f35
+pipeline-model-extensions:2.2254.v2a_978de46f35
 pipeline-rest-api:2.37
 pipeline-stage-step:322.vecffa_99f371c
-pipeline-stage-tags-metadata:2.2247.va_423189a_7dff
+pipeline-stage-tags-metadata:2.2254.v2a_978de46f35
 pipeline-stage-view:2.37
 plain-credentials:195.vb_906e9073dee
 plugin-usage-plugin:4.10
