@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.521 (2025-07-30)
+
+- Upgrade to Jenkins 2.521
+- Upgrade plugins
 ## 2.519 (2025-07-22)
 
 - Upgrade to Jenkins 2.519
