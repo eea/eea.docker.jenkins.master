@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.540 (2025-12-04)
+
+- Upgrade to Jenkins 2.540
+- Upgrade plugins
 ## 2.537 (2025-11-18)
 
 - Upgrade to Jenkins 2.537
