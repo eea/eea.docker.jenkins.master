@@ -4,46 +4,58 @@
 
 - Upgrade to Jenkins 2.544
 - Upgrade plugins
+- Use official Jenkins docker as a base - ( upgrade Java, upgrade OS to debian: trixie )
+
 ## 2.543 (2025-12-29)
 
 - Upgrade to Jenkins 2.543
 - Upgrade plugins
+
 ## 2.542 (2025-12-19)
 
 - Upgrade to Jenkins 2.542
 - Upgrade plugins
+
 ## 2.540 (2025-12-04)
 
 - Upgrade to Jenkins 2.540
 - Upgrade plugins
+
 ## 2.537 (2025-11-18)
 
 - Upgrade to Jenkins 2.537
 - Upgrade plugins
+
 ## 2.534 (2025-10-29)
 
 - Upgrade to Jenkins 2.534
 - Upgrade plugins
+
 ## 2.531 (2025-10-09)
 
 - Upgrade to Jenkins 2.531
 - Upgrade plugins
+
 ## 2.529 (2025-09-25)
 
 - Upgrade to Jenkins 2.529
 - Upgrade plugins
+
 ## 2.528 (2025-09-19)
 
 - Upgrade to Jenkins 2.528
 - Upgrade plugins
+
 ## 2.521 (2025-07-30)
 
 - Upgrade to Jenkins 2.521
 - Upgrade plugins
+
 ## 2.519 (2025-07-22)
 
 - Upgrade to Jenkins 2.519
 - Upgrade plugins
+
 ## 2.511 (2025-05-20)
 
 - Upgrade to jenkins 2.511
