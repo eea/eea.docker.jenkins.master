@@ -1,4 +1,4 @@
-ARG JAVA_VERSION=17.0.11_10
+ARG JAVA_VERSION=17.0.17_10
 ARG BULLSEYE_TAG=20230703
 
 FROM eclipse-temurin:"${JAVA_VERSION}"-jdk-focal as jre-build
