@@ -6,8 +6,7 @@ RUN jenkins-plugin-cli --plugin-file=/usr/share/jenkins/ref/plugins.txt
 ENV HOME $JENKINS_HOME
 
 USER root
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
- && apt-get update \
+RUN apt-get update \
  && apt-get install -y --no-install-recommends graphviz nodejs \
  && rm -rf /var/lib/apt/lists/* 
 
