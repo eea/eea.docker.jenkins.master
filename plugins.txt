@@ -11,7 +11,7 @@ asm-api:9.9.1-189.vb_5ef2964da_91
 audit-trail:436.vc0d1e79fc5a_3
 authentication-tokens:1.144.v5ff4a_5ec5c33
 authorize-project:2.0.0
-basic-branch-build-strategies:275.vde2351b_4a_58b_
+basic-branch-build-strategies:317.v85b_331d6cc42
 blueocean-autofavorite:1.2.5
 blueocean-bitbucket-pipeline:1.27.25
 blueocean-commons:1.27.25
@@ -58,7 +58,7 @@ console-column-plugin:270.vda_2472462073
 coverage:2.3060.v035a_5557cdb_c
 credentials-binding:702.vfe613e537e88
 credentials:1453.v9b_a_29777a_b_fd
-cron_column:83.vd52c9b_5c758c
+cron_column:102.v6db_e80854fd8
 cvs:483.v69a_98dfd973b_
 dashboard-view:2.543.vca_9da_3cb_9c60
 data-tables-api:2.3.5-1497.v38449eb_7d5a_1
@@ -202,10 +202,10 @@ ssh-credentials:361.vb_f6760818e8c
 ssh-slaves:3.1085.vc64d040efa_85
 sshd:3.374.v19b_d59ce6610
 structs:362.va_b_695ef4fdf9
-subversion:1292.ve8cf25770ee3
+subversion:1303.vcfd9679fb_c12
 swarm:3.51
 thinBackup:2.1.3
-throttle-concurrents:2.18
+throttle-concurrents:624.vc427fa_e0e503
 timestamper:1.30
 token-macro:477.vd4f0dc3cb_cf1
 trilead-api:2.284.v1974ea_324382
