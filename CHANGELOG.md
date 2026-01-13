@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.546 (2026-01-13)
+
+- Upgrade to Jenkins 2.546
+- Upgrade plugins
+
 ## 2.545 (2026-01-12)
 
 - Upgrade to Jenkins 2.545
