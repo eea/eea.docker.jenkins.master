@@ -2,7 +2,7 @@ Matrix-sorter-plugin:1.3
 PrioritySorter:936.v2c01c6b_84449
 active-directory:2.41
 all-changes:1.5
-analysis-model-api:13.21.0-941.va_912a_3314a_16
+analysis-model-api:13.21.0-945.va_f5a_0b_c1404b_
 ant:520.vd082ecfb_16a_9
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
@@ -61,7 +61,7 @@ credentials:1491.v6d6145e96e1c
 cron_column:106.v492da_45b_051b_
 cvs:502.v02d5a_0c6b_9a_3
 dashboard-view:2.558.v96b_901978e47
-data-tables-api:2.3.5-1497.v38449eb_7d5a_1
+data-tables-api:2.3.7-1534.v539d4edf109d
 delivery-pipeline-plugin:1.4.2
 dependencyanalyzer:0.7
 depgraph-view:1.0.5
@@ -76,7 +76,7 @@ downstream-buildview:69.v16da_b_2c36f6c
 downstream-ext:73.vdda_16e6eb_0da
 doxygen:178.v6ea_ef5f7dfdb
 dropdown-viewstabbar-plugin:1.7
-durable-task:651.v1f5e074fc83f
+durable-task:664.v2b_e7a_dfff66c
 dynamic-axis:1.0.3
 echarts-api:6.0.0-1165.vd1283a_3e37d4
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
@@ -85,7 +85,7 @@ embeddable-build-status:637.vd878e68178f8
 external-monitor-job:223.vb_fddcf42c9b_3
 favorite:2.263.v941d21defef7
 flashlog-plugin:1.0
-font-awesome-api:7.1.0-882.v1dfb_771e3278
+font-awesome-api:7.2.0-965.ve3840b_696418
 forensics-api:3.1832.va_1179842528b_
 git-client:6.5.0
 git-parameter:462.vdcf3df2ed2ca_
@@ -105,11 +105,11 @@ html-audio-notifier:0.4
 htmlpublisher:427
 image-gallery:2.0.2
 instance-identity:203.v15e81a_1b_7a_38
-instant-messaging:2.885.v1e66747893e5
+instant-messaging:2.887.vccece34fa_615
 ionicons-api:94.vcc3065403257
 iphoneview:0.2
 jabber:1.42
-jackson2-api:2.20.1-423.v13951f6b_6532
+jackson2-api:2.21.1-428.vf8dd988fa_d8d
 jackson3-api:3.1.0-64.v37e742c35905
 jakarta-activation-api:2.1.4-1
 jakarta-mail-api:2.1.5-1
@@ -124,7 +124,7 @@ jersey2-api:2.47-165.ve7809a_3e87e0
 jira:3.21
 jjwt-api:0.11.5-120.v0268cf544b_89
 jnr-posix-api:3.1.21-186.vb_7ec9b_23ce83
-joda-time-api:2.14.0-177.vd7e9347b_e7d5
+joda-time-api:2.14.1-187.vdf2def02b_8a_1
 jquery3-api:3.7.1-619.vdb_10e002501a_
 jquery:1.12.4-3
 jsch:0.2.16-95.v3eecb_55fa_b_78
@@ -134,7 +134,7 @@ jsoup:1.22.1-76.v9cdb_2456c0e3
 junit:1402.va_87fd3d15dc3
 ldap:807.v7d7de30930cf
 leastload:66.v8720e4713836
-lockable-resources:1438.v3c0f8c9e2060
+lockable-resources:1469.v52dff5a_80e32
 log-parser:3.0.2
 m2release:0.16.4
 mailer:525.v2458b_d8a_1a_71
@@ -155,7 +155,7 @@ neuvector-vulnerability-scanner:2.6
 next-executions:517.vc2c2ca_1b_c808
 nodejs:1.6.6
 nodelabelparameter:851.vd94e5048d321
-okhttp-api:4.12.0-195.vc02552c04ffd
+okhttp-api:5.3.2-200.vedb_720a_cf1f8
 openid4java:0.9.8.0
 oss-symbols-api:442.v99039087229b_
 pam-auth:1.12
@@ -164,7 +164,7 @@ pipeline-aggregator-view:122.v3fe0b_415385e
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:777.vdeb_113b_b_94da_
+pipeline-graph-view:803.vb_88f7a_a_1cb_47
 pipeline-groovy-lib:787.ve2fef0efdca_6
 pipeline-input-step:540.v14b_100d754dd
 pipeline-milestone-step:138.v78ca_76831a_43
@@ -217,7 +217,7 @@ windmill:1.5
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1398.v67030756d3fb_
 workflow-basic-steps:1098.v808b_fd7f8cf4
-workflow-cps:4257.vb_2e202808577
+workflow-cps:4259.vf653c2b_8a_b_69
 workflow-durable-task-step:1464.v2d3f5c68f84c
 workflow-job:1571.vb_423c255d6d9
 workflow-multibranch:821.vc3b_4ea_780798
