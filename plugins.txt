@@ -44,7 +44,7 @@ claim:617.v149399f86b_de
 cloud-stats:377.vd8a_6c953e98e
 cloudbees-bitbucket-branch-source:937.2.5
 cloudbees-folder:6.1079.vc0975c2de294
-collapsing-console-sections:1.12.0
+collapsing-console-sections:1.13.0
 command-launcher:123.v37cfdc92ef67
 commons-collections4-api:4.5.0-8.va_d5448ef9011
 commons-compress-api:1.28.0-3
@@ -78,7 +78,7 @@ doxygen:178.v6ea_ef5f7dfdb
 dropdown-viewstabbar-plugin:1.7
 durable-task:664.v2b_e7a_dfff66c
 dynamic-axis:1.0.3
-echarts-api:6.0.0-1165.vd1283a_3e37d4
+echarts-api:6.0.0-1247.vf3e35a_c1813f
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
 email-ext:1933.v45cec755423f
 embeddable-build-status:637.vd878e68178f8
@@ -131,7 +131,7 @@ jsch:0.2.16-95.v3eecb_55fa_b_78
 json-api:20251224-185.v0cc18490c62c
 json-path-api:3.0.0-218.vcd4dd1355de2
 jsoup:1.22.1-76.v9cdb_2456c0e3
-junit:1402.va_87fd3d15dc3
+junit:1403.vd9d1413fd205
 ldap:807.v7d7de30930cf
 leastload:66.v8720e4713836
 lockable-resources:1469.v52dff5a_80e32
