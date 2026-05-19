@@ -7,7 +7,7 @@ ant:520.vd082ecfb_16a_9
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
 apache-httpcomponents-client-5-api:5.6.1-195.v65ffe15189a_d
-asm-api:9.9.1-189.vb_5ef2964da_91
+asm-api:9.10-211.v7d13903b_a_d89
 audit-trail:436.vc0d1e79fc5a_3
 authentication-tokens:1.144.v5ff4a_5ec5c33
 authorize-project:531.vf8761dfd75d2
@@ -55,6 +55,7 @@ conditional-buildstep:1.5.0
 config-file-provider:1006.vc7366c201f57
 configurationslicing:709.v4c76e613470f
 console-column-plugin:270.vda_2472462073
+copyartifact:795.ve8e151429b_27
 coverage:3.3240.vb_5a_8809f7523
 credentials-binding:720.v3f6decef43ea_
 credentials:1502.v5c95e620ddfe
@@ -76,7 +77,7 @@ downstream-buildview:69.v16da_b_2c36f6c
 downstream-ext:73.vdda_16e6eb_0da
 doxygen:178.v6ea_ef5f7dfdb
 dropdown-viewstabbar-plugin:1.7
-durable-task:664.v2b_e7a_dfff66c
+durable-task:671.v340ff7959010
 dynamic-axis:1.0.3
 echarts-api:6.0.0-1287.vfd24c22a_3d00
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
@@ -148,8 +149,8 @@ maven-info:0.3.2
 maven-plugin:3.27
 mercurial:1323.ve69d2a_db_8a_b_d
 metrics:4.2.37-494.v06f9a_939d33a_
-mina-sshd-api-common:2.16.0-184.v1e0e8b_e8e813
-mina-sshd-api-core:2.16.0-184.v1e0e8b_e8e813
+mina-sshd-api-common:2.17.1-187.v0341274c2905
+mina-sshd-api-core:2.17.1-187.v0341274c2905
 monitoring:2.7.0
 nested-view:241.v178f0b_a_cd76a_
 neuvector-vulnerability-scanner:2.7
@@ -165,7 +166,7 @@ pipeline-aggregator-view:122.v3fe0b_415385e
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:896.v29722831939d
+pipeline-graph-view:903.v86ded4d9c36b_
 pipeline-groovy-lib:797.v90ea_a_9b_e45a_0
 pipeline-input-step:551.vdff487c5998c
 pipeline-milestone-step:152.v6e22b_8cfc66c
@@ -213,7 +214,7 @@ timestamper:1.30
 token-macro:477.vd4f0dc3cb_cf1
 trilead-api:2.284.v1974ea_324382
 variant:70.va_d9f17f859e0
-warnings-ng:13.10091.vd687e63e8591
+warnings-ng:13.10097.v277a_958a_b_c09
 windmill:1.5
 woodstox-core-api:7.1.1-1.v4d297985f397
 workflow-aggregator:608.v67378e9d3db_1
