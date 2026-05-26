@@ -7,7 +7,7 @@ ant:520.vd082ecfb_16a_9
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
 apache-httpcomponents-client-5-api:5.6.1-195.v65ffe15189a_d
-asm-api:9.10-211.v7d13903b_a_d89
+asm-api:9.10.1-216.va_9256d3b_844b_
 audit-trail:436.vc0d1e79fc5a_3
 authentication-tokens:1.144.v5ff4a_5ec5c33
 authorize-project:531.vf8761dfd75d2
@@ -130,14 +130,14 @@ joda-time-api:2.14.2-193.v422b_efce56e0
 jquery3-api:3.7.1-687.v68d468e40b_30
 jquery:1.12.4-3
 jsch:0.2.16-95.v3eecb_55fa_b_78
-json-api:20251224-185.v0cc18490c62c
+json-api:20260522-217.v0b_18b_8cd4672
 json-path-api:3.0.0-218.vcd4dd1355de2
 jsoup:1.22.2-95.vc5d00f1eb_42d
 junit:1403.vd9d1413fd205
 ldap:807.v7d7de30930cf
 leastload:71.vb_585f7a_dc4f5
 lockable-resources:1515.v380548282a_59
-log-parser:3.0.2
+log-parser:3.0.3
 m2release:0.16.4
 mailer:534.v1b_36f5864073
 mapdb-api:1.0.9-44.va_1e1310c9118
@@ -151,7 +151,7 @@ mercurial:1323.ve69d2a_db_8a_b_d
 metrics:4.2.37-494.v06f9a_939d33a_
 mina-sshd-api-common:2.17.1-187.v0341274c2905
 mina-sshd-api-core:2.17.1-187.v0341274c2905
-monitoring:2.7.0
+monitoring:2.8.0
 nested-view:241.v178f0b_a_cd76a_
 neuvector-vulnerability-scanner:2.7
 next-executions:517.vc2c2ca_1b_c808
@@ -166,7 +166,7 @@ pipeline-aggregator-view:122.v3fe0b_415385e
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-github:2.8-162.382498405fdc
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:903.v86ded4d9c36b_
+pipeline-graph-view:915.v50d41d76dff8
 pipeline-groovy-lib:797.v90ea_a_9b_e45a_0
 pipeline-input-step:551.vdff487c5998c
 pipeline-milestone-step:152.v6e22b_8cfc66c
