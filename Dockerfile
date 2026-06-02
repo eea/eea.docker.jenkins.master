@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.566
+FROM jenkins/jenkins:2.567
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 
