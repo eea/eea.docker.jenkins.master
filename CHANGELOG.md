@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.589-2 (2026-11-05)
+
+- Upgrade plugins
+- Add jersey3-api to plugins.txt (dependency of jira, was installed but missing from the list)
+
 ## 2.589-1 (2026-11-05)
 
 - Remove plugins broken on current Jenkins: redmine, html-audio-notifier
