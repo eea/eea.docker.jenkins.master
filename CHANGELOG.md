@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.589 (2026-11-05)
+
+- Upgrade to Jenkins 2.589
+- Remove Blue Ocean plugins
+
 ## 2.587 (2026-10-27)
 
 - Upgrade to Jenkins 2.587
