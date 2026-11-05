@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.589-1 (2026-11-05)
+
+- Remove plugins broken on current Jenkins: redmine, html-audio-notifier
+- Remove Blue Ocean leftovers: sse-gateway, pubsub-light, favorite
+- Remove unmaintained and unused plugins: all-changes, cvs, dependencyanalyzer,
+  depgraph-view, doclinks, doxygen, dropdown-viewstabbar-plugin, dynamic-axis,
+  external-monitor-job, flashlog-plugin, github-issues, image-gallery,
+  instant-messaging, iphoneview, jabber, m2release, matrix-combinations-parameter,
+  mercurial, openid4java, seleniumhq, shiningpanda, show-build-parameters,
+  subversion, windmill
+- Remove graphviz package (only used by depgraph-view)
+
 ## 2.589 (2026-11-05)
 
 - Upgrade to Jenkins 2.589
