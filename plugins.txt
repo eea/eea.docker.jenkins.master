@@ -13,8 +13,6 @@ auth-commons:4.v3a_81b_3693e3d
 authentication-tokens:1.144.v5ff4a_5ec5c33
 authorize-project:534.v2f208c45e11c
 basic-branch-build-strategies:317.v85b_331d6cc42
-blueocean-autofavorite:1.2.5
-blueocean-display-url:2.4.4
 bootstrap5-api:5.3.8-1048.va_c299057e35c
 bouncycastle-api:2.30.1.86.2-310.v4655f6742752
 branch-api:2.1303.v9f3b_95dc329d
